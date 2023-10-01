@@ -17,7 +17,7 @@ SELECT * from usuarios;
 DROP table usuarios;
 
 -- Renomeando nova tabela --
-ALTER TABLE usuarios_nova RENAME usuarios;
+ALTER TABLE usuarios_nova RENAME (TO) usuarios;
 
 
 -- Ou opção 2 : Alterar tamanho da coluna endereço -- 
